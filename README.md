@@ -23,7 +23,7 @@
 17. Click Create a Worker.
 
 ## Step 2: Customize and generate the script (2 mins)
-
+```
 export default {
   async fetch(request, env, ctx) {
     try {
@@ -52,7 +52,7 @@ const cssToHideBadge = `<style>#__framer-badge-container { display: none !import
     }
   }
 };
-
+```
 
 ## Step 3: Paste the script in Cloudflare (1 min)
 
